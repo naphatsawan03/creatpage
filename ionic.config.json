@@ -1,5 +1,7 @@
 {
   "name": "shopinglist",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

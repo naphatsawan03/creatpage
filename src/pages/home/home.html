@@ -7,8 +7,38 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+  <ion-list>
+    <ion-list-header>อาหาร</ion-list-header>
+      <ion-item (click)="goToFishfire()">
+        <ion-avatar item-start>
+          <img src="https://magazine.foodpanda.co.th/wp-content/uploads/sites/14/2019/10/%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%9C%E0%B8%B2.jpg" alt="">
+        </ion-avatar>
+        ปลาเผา</ion-item>
+      <ion-item (click)="goToChikenjo()">
+        <ion-avatar item-start>
+          <img src="https://louisexpress-delivery.com/wp-content/uploads/2018/11/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%88%E0%B9%8A%E0%B8%AD%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%A7.jpg" alt="">
+        </ion-avatar>
+        ไก่จ๊อ</ion-item>
+      <ion-item (click)="goToFrancefire()">
+        <ion-avatar item-start>
+          <img src="https://img.kapook.com/u/soisuda/food/350_5.jpg" alt="">
+        </ion-avatar>
+        เฟรนฟรายด์</ion-item>
+      <ion-item >
+        <ion-avatar item-start>
+          <img src="https://lh3.googleusercontent.com/proxy/wGEZwanEuxVagYd2fiezazrtucSZy4czqqqHfx8-p2kHbD4NtHJMfSUdge1VEZG89T34eZp73QvfGAyAVoatDaotrQJ8Cgxn467Xqs1QQ1QpPsPDtXfrJX0" alt="">
+        </ion-avatar>
+        ไก่ทอด</ion-item>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="https://lh3.googleusercontent.com/proxy/2m2KoV7Q4FC7wR_XbDONo6vEkgEBdmW2AR9PfuM5n5-Uj0m_dEf8muh_xS4iPdSLSvckcGaHU2QOTicuIMHdBseud5xOKeIX-U7hv6MHcN5k8w" alt="">
+        </ion-avatar>
+        เกี๊ยวกุ้ง</ion-item>
+    <ion-list-header>น้ำ</ion-list-header>
+      <ion-item>น้ำเปล่า</ion-item>
+      <ion-item>น้ำพันซ์</ion-item>
+      <ion-item>วิสกี้</ion-item>
+      <ion-item>ไวน์</ion-item>
+      <ion-item>เบียร์</ion-item>
+  </ion-list>
 </ion-content>
